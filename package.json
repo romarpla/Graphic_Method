@@ -1,0 +1,18 @@
+{
+    "name": "graph",
+    "version": "1.0.0",
+    "description": "simple linear programming graphing app",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "run": "nodemon main.js -e js,hbs,css,html"
+    },
+    "author": "Romarpla",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.4",
+        "hbs": "^4.0.1",
+        "node-wolfram": "0.0.1",
+        "pkginfo": "^0.4.1"
+    }
+}
